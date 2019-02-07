@@ -1,0 +1,17 @@
+==== High priority ====
+Update DCD to reflect updated and extended model
+Update DSD to reflect updated and extended model
+Begin report - Brent is currently writing up report
+
+==== Mid priority ====
+rewrite this TODO list using some sort of formatting guidelines
+Commenting code
+Improve readability and general code quality
+
+==== Low priority ====
+Review abstraction of Robot class
+Correctly handle breakages and Exceptions by CarfulRobot
+
+==== Optional ====
+Prepare report in LaTeX
+Devise a better performing strategy

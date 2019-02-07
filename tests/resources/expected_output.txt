@@ -1,0 +1,659 @@
+Floors:    10
+Fragile: false
+Mail_to_Create:   200
+Last_Delivery_Time:   120
+Robots: [Weak, Standard, Standard]
+Seed: 12345
+T:   0 > R0(0/4) changed from RETURNING to WAITING
+T:   0 > R1(0/4) changed from RETURNING to WAITING
+T:   0 > R2(0/4) changed from RETURNING to WAITING
+T:   1 > new addToPool [Mail Item:: ID:     61 | Arrival:    1 | Destination:  2 | Weight:  339 | Fragile:  no]
+T:   1 > new addToPool [Mail Item:: ID:    133 | Arrival:    1 | Destination:  3 | Weight: 1616 | Fragile:  no | Priority:  60]
+T:   1 > R0(1/4) changed from WAITING to DELIVERING
+T:   1 > R0(1/4)-> [Mail Item:: ID:    133 | Arrival:    1 | Destination:  3 | Weight: 1616 | Fragile:  no | Priority:  60]
+T:   2 > new addToPool [Mail Item:: ID:    110 | Arrival:    2 | Destination:  3 | Weight:  325 | Fragile:  no]
+T:   2 > new addToPool [Mail Item:: ID:    131 | Arrival:    2 | Destination:  9 | Weight:  520 | Fragile:  no | Priority:  90]
+T:   2 > R1(1/4) changed from WAITING to DELIVERING
+T:   2 > R1(1/4)-> [Mail Item:: ID:    131 | Arrival:    2 | Destination:  9 | Weight:  520 | Fragile:  no | Priority:  90]
+T:   4 > new addToPool [Mail Item:: ID:     50 | Arrival:    4 | Destination:  3 | Weight:  734 | Fragile:  no]
+T:   4 > new addToPool [Mail Item:: ID:    129 | Arrival:    4 | Destination:  9 | Weight: 1257 | Fragile:  no]
+T:   4 > Delivered [Mail Item:: ID:    133 | Arrival:    1 | Destination:  3 | Weight: 1616 | Fragile:  no | Priority:  60]
+T:   4 > R0(0/4)-> [Mail Item:: ID:     61 | Arrival:    1 | Destination:  2 | Weight:  339 | Fragile:  no]
+T:   4 > R2(1/4) changed from WAITING to DELIVERING
+T:   4 > R2(1/4)-> [Mail Item:: ID:    129 | Arrival:    4 | Destination:  9 | Weight: 1257 | Fragile:  no]
+T:   5 > new addToPool [Mail Item:: ID:      7 | Arrival:    5 | Destination:  9 | Weight:  631 | Fragile:  no | Priority:  50]
+T:   6 > new addToPool [Mail Item:: ID:     33 | Arrival:    6 | Destination:  4 | Weight:  745 | Fragile:  no]
+T:   6 > new addToPool [Mail Item:: ID:     59 | Arrival:    6 | Destination:  8 | Weight:  702 | Fragile:  no]
+T:   6 > new addToPool [Mail Item:: ID:     98 | Arrival:    6 | Destination: 10 | Weight: 1409 | Fragile:  no]
+T:   6 > Delivered [Mail Item:: ID:     61 | Arrival:    1 | Destination:  2 | Weight:  339 | Fragile:  no]
+T:   6 > R0(0/4) changed from DELIVERING to RETURNING
+T:   8 > new addToPool [Mail Item:: ID:     63 | Arrival:    8 | Destination: 10 | Weight:  985 | Fragile:  no | Priority:  60]
+T:   8 > new addToPool [Mail Item:: ID:     66 | Arrival:    8 | Destination:  3 | Weight:  855 | Fragile:  no]
+T:   8 > new addToPool [Mail Item:: ID:     81 | Arrival:    8 | Destination:  7 | Weight:  685 | Fragile:  no]
+T:   8 > R0(0/4) changed from RETURNING to WAITING
+T:   9 > new addToPool [Mail Item:: ID:    111 | Arrival:    9 | Destination:  9 | Weight: 1360 | Fragile:  no | Priority:  20]
+T:   9 > R0(3/4) changed from WAITING to DELIVERING
+T:   9 > R0(3/4)-> [Mail Item:: ID:     63 | Arrival:    8 | Destination: 10 | Weight:  985 | Fragile:  no | Priority:  60]
+T:  10 > new addToPool [Mail Item:: ID:    152 | Arrival:   10 | Destination: 10 | Weight: 2737 | Fragile:  no]
+T:  11 > Delivered [Mail Item:: ID:    131 | Arrival:    2 | Destination:  9 | Weight:  520 | Fragile:  no | Priority:  90]
+T:  11 > R1(0/4)-> [Mail Item:: ID:    110 | Arrival:    2 | Destination:  3 | Weight:  325 | Fragile:  no]
+T:  12 > new addToPool [Mail Item:: ID:    106 | Arrival:   12 | Destination:  3 | Weight:  907 | Fragile:  no]
+T:  13 > new addToPool [Mail Item:: ID:     39 | Arrival:   13 | Destination:  8 | Weight:  884 | Fragile:  no]
+T:  13 > new addToPool [Mail Item:: ID:     93 | Arrival:   13 | Destination:  5 | Weight:  532 | Fragile:  no]
+T:  13 > new addToPool [Mail Item:: ID:    119 | Arrival:   13 | Destination:  4 | Weight:  424 | Fragile:  no]
+T:  13 > Delivered [Mail Item:: ID:    129 | Arrival:    4 | Destination:  9 | Weight: 1257 | Fragile:  no]
+T:  13 > R2(0/4)-> [Mail Item:: ID:     50 | Arrival:    4 | Destination:  3 | Weight:  734 | Fragile:  no]
+T:  14 > new addToPool [Mail Item:: ID:     10 | Arrival:   14 | Destination: 10 | Weight: 1860 | Fragile:  no]
+T:  14 > new addToPool [Mail Item:: ID:     19 | Arrival:   14 | Destination:  7 | Weight:  539 | Fragile:  no]
+T:  16 > new addToPool [Mail Item:: ID:    124 | Arrival:   16 | Destination:  7 | Weight:  474 | Fragile:  no | Priority:  60]
+T:  17 > new addToPool [Mail Item:: ID:     36 | Arrival:   17 | Destination:  8 | Weight:  643 | Fragile:  no | Priority:  20]
+T:  17 > new addToPool [Mail Item:: ID:    107 | Arrival:   17 | Destination:  7 | Weight:  477 | Fragile:  no]
+T:  17 > new addToPool [Mail Item:: ID:    155 | Arrival:   17 | Destination:  4 | Weight:  206 | Fragile:  no]
+T:  18 > Delivered [Mail Item:: ID:    110 | Arrival:    2 | Destination:  3 | Weight:  325 | Fragile:  no]
+T:  18 > R1(0/4) changed from DELIVERING to RETURNING
+T:  19 > new addToPool [Mail Item:: ID:     78 | Arrival:   19 | Destination:  9 | Weight:  791 | Fragile:  no]
+T:  19 > new addToPool [Mail Item:: ID:     80 | Arrival:   19 | Destination:  5 | Weight: 1105 | Fragile:  no]
+T:  19 > new addToPool [Mail Item:: ID:     86 | Arrival:   19 | Destination:  8 | Weight:  435 | Fragile:  no]
+T:  19 > Delivered [Mail Item:: ID:     63 | Arrival:    8 | Destination: 10 | Weight:  985 | Fragile:  no | Priority:  60]
+T:  19 > R0(2/4)-> [Mail Item:: ID:      7 | Arrival:    5 | Destination:  9 | Weight:  631 | Fragile:  no | Priority:  50]
+T:  20 > new addToPool [Mail Item:: ID:     34 | Arrival:   20 | Destination:  3 | Weight:  294 | Fragile:  no]
+T:  20 > Delivered [Mail Item:: ID:     50 | Arrival:    4 | Destination:  3 | Weight:  734 | Fragile:  no]
+T:  20 > R2(0/4) changed from DELIVERING to RETURNING
+T:  21 > new addToPool [Mail Item:: ID:     17 | Arrival:   21 | Destination:  7 | Weight: 1087 | Fragile:  no]
+T:  21 > Delivered [Mail Item:: ID:      7 | Arrival:    5 | Destination:  9 | Weight:  631 | Fragile:  no | Priority:  50]
+T:  21 > R0(1/4)-> [Mail Item:: ID:    111 | Arrival:    9 | Destination:  9 | Weight: 1360 | Fragile:  no | Priority:  20]
+T:  21 > R1(0/4) changed from RETURNING to WAITING
+T:  22 > new addToPool [Mail Item:: ID:     70 | Arrival:   22 | Destination:  6 | Weight:  557 | Fragile:  no | Priority:  60]
+T:  22 > Delivered [Mail Item:: ID:    111 | Arrival:    9 | Destination:  9 | Weight: 1360 | Fragile:  no | Priority:  20]
+T:  22 > R0(0/4)-> [Mail Item:: ID:     98 | Arrival:    6 | Destination: 10 | Weight: 1409 | Fragile:  no]
+T:  22 > R1(3/4) changed from WAITING to DELIVERING
+T:  22 > R1(3/4)-> [Mail Item:: ID:    124 | Arrival:   16 | Destination:  7 | Weight:  474 | Fragile:  no | Priority:  60]
+T:  23 > new addToPool [Mail Item:: ID:     58 | Arrival:   23 | Destination:  4 | Weight: 1374 | Fragile:  no]
+T:  23 > new addToPool [Mail Item:: ID:     79 | Arrival:   23 | Destination:  1 | Weight:  338 | Fragile:  no | Priority:  30]
+T:  23 > R2(0/4) changed from RETURNING to WAITING
+T:  24 > new addToPool [Mail Item:: ID:      4 | Arrival:   24 | Destination:  2 | Weight:  953 | Fragile:  no]
+T:  24 > new addToPool [Mail Item:: ID:     85 | Arrival:   24 | Destination:  3 | Weight:  779 | Fragile:  no | Priority:  70]
+T:  24 > Delivered [Mail Item:: ID:     98 | Arrival:    6 | Destination: 10 | Weight: 1409 | Fragile:  no]
+T:  24 > R0(0/4) changed from DELIVERING to RETURNING
+T:  24 > R2(3/4) changed from WAITING to DELIVERING
+T:  24 > R2(3/4)-> [Mail Item:: ID:     85 | Arrival:   24 | Destination:  3 | Weight:  779 | Fragile:  no | Priority:  70]
+T:  25 > new addToPool [Mail Item:: ID:     51 | Arrival:   25 | Destination:  2 | Weight:  476 | Fragile:  no]
+T:  25 > new addToPool [Mail Item:: ID:    164 | Arrival:   25 | Destination:  8 | Weight: 1235 | Fragile:  no | Priority:  20]
+T:  26 > new addToPool [Mail Item:: ID:     89 | Arrival:   26 | Destination:  5 | Weight:  380 | Fragile:  no]
+T:  26 > new addToPool [Mail Item:: ID:     97 | Arrival:   26 | Destination:  3 | Weight:  608 | Fragile:  no | Priority:  40]
+T:  27 > new addToPool [Mail Item:: ID:     43 | Arrival:   27 | Destination:  9 | Weight:  878 | Fragile:  no]
+T:  27 > new addToPool [Mail Item:: ID:    154 | Arrival:   27 | Destination:  7 | Weight:  340 | Fragile:  no]
+T:  27 > new addToPool [Mail Item:: ID:    161 | Arrival:   27 | Destination:  1 | Weight:  528 | Fragile:  no]
+T:  27 > Delivered [Mail Item:: ID:     85 | Arrival:   24 | Destination:  3 | Weight:  779 | Fragile:  no | Priority:  70]
+T:  27 > R2(2/4)-> [Mail Item:: ID:     79 | Arrival:   23 | Destination:  1 | Weight:  338 | Fragile:  no | Priority:  30]
+T:  29 > new addToPool [Mail Item:: ID:      6 | Arrival:   29 | Destination:  2 | Weight:  735 | Fragile:  no]
+T:  29 > new addToPool [Mail Item:: ID:     76 | Arrival:   29 | Destination:  3 | Weight: 1485 | Fragile:  no]
+T:  29 > new addToPool [Mail Item:: ID:    122 | Arrival:   29 | Destination:  2 | Weight:  265 | Fragile:  no]
+T:  29 > new addToPool [Mail Item:: ID:    132 | Arrival:   29 | Destination:  6 | Weight:  235 | Fragile:  no | Priority:  80]
+T:  29 > Delivered [Mail Item:: ID:    124 | Arrival:   16 | Destination:  7 | Weight:  474 | Fragile:  no | Priority:  60]
+T:  29 > R1(2/4)-> [Mail Item:: ID:     70 | Arrival:   22 | Destination:  6 | Weight:  557 | Fragile:  no | Priority:  60]
+T:  30 > new addToPool [Mail Item:: ID:     57 | Arrival:   30 | Destination:  2 | Weight:  531 | Fragile:  no]
+T:  30 > new addToPool [Mail Item:: ID:    135 | Arrival:   30 | Destination:  4 | Weight: 1105 | Fragile:  no]
+T:  30 > Delivered [Mail Item:: ID:     79 | Arrival:   23 | Destination:  1 | Weight:  338 | Fragile:  no | Priority:  30]
+T:  30 > R2(1/4)-> [Mail Item:: ID:     10 | Arrival:   14 | Destination: 10 | Weight: 1860 | Fragile:  no]
+T:  31 > Delivered [Mail Item:: ID:     70 | Arrival:   22 | Destination:  6 | Weight:  557 | Fragile:  no | Priority:  60]
+T:  31 > R1(1/4)-> [Mail Item:: ID:     36 | Arrival:   17 | Destination:  8 | Weight:  643 | Fragile:  no | Priority:  20]
+T:  32 > new addToPool [Mail Item:: ID:    141 | Arrival:   32 | Destination:  6 | Weight:  487 | Fragile:  no]
+T:  33 > new addToPool [Mail Item:: ID:    128 | Arrival:   33 | Destination:  1 | Weight:  268 | Fragile:  no]
+T:  34 > new addToPool [Mail Item:: ID:    112 | Arrival:   34 | Destination:  7 | Weight: 1330 | Fragile:  no]
+T:  34 > R0(0/4) changed from RETURNING to WAITING
+T:  34 > Delivered [Mail Item:: ID:     36 | Arrival:   17 | Destination:  8 | Weight:  643 | Fragile:  no | Priority:  20]
+T:  34 > R1(0/4)-> [Mail Item:: ID:    152 | Arrival:   10 | Destination: 10 | Weight: 2737 | Fragile:  no]
+T:  35 > new addToPool [Mail Item:: ID:     46 | Arrival:   35 | Destination:  7 | Weight: 1292 | Fragile:  no]
+T:  35 > R0(3/4) changed from WAITING to DELIVERING
+T:  35 > R0(3/4)-> [Mail Item:: ID:    132 | Arrival:   29 | Destination:  6 | Weight:  235 | Fragile:  no | Priority:  80]
+T:  36 > new addToPool [Mail Item:: ID:      5 | Arrival:   36 | Destination:  6 | Weight: 1066 | Fragile:  no]
+T:  36 > new addToPool [Mail Item:: ID:    102 | Arrival:   36 | Destination:  9 | Weight:  257 | Fragile:  no]
+T:  36 > new addToPool [Mail Item:: ID:    120 | Arrival:   36 | Destination:  2 | Weight:  484 | Fragile:  no]
+T:  36 > new addToPool [Mail Item:: ID:    168 | Arrival:   36 | Destination:  1 | Weight:  305 | Fragile:  no | Priority:  20]
+T:  37 > new addToPool [Mail Item:: ID:     24 | Arrival:   37 | Destination:  8 | Weight: 1085 | Fragile:  no]
+T:  37 > new addToPool [Mail Item:: ID:     69 | Arrival:   37 | Destination:  3 | Weight:  962 | Fragile:  no | Priority:  60]
+T:  37 > Delivered [Mail Item:: ID:    152 | Arrival:   10 | Destination: 10 | Weight: 2737 | Fragile:  no]
+T:  37 > R1(0/4) changed from DELIVERING to RETURNING
+T:  38 > new addToPool [Mail Item:: ID:     71 | Arrival:   38 | Destination:  2 | Weight: 1057 | Fragile:  no | Priority:  50]
+T:  38 > new addToPool [Mail Item:: ID:    118 | Arrival:   38 | Destination:  9 | Weight:  329 | Fragile:  no]
+T:  40 > new addToPool [Mail Item:: ID:      8 | Arrival:   40 | Destination:  9 | Weight:  570 | Fragile:  no | Priority:  10]
+T:  40 > new addToPool [Mail Item:: ID:     55 | Arrival:   40 | Destination: 10 | Weight: 1142 | Fragile:  no]
+T:  40 > Delivered [Mail Item:: ID:     10 | Arrival:   14 | Destination: 10 | Weight: 1860 | Fragile:  no]
+T:  40 > R2(0/4)-> [Mail Item:: ID:     78 | Arrival:   19 | Destination:  9 | Weight:  791 | Fragile:  no]
+T:  41 > new addToPool [Mail Item:: ID:     68 | Arrival:   41 | Destination: 10 | Weight:  703 | Fragile:  no]
+T:  41 > new addToPool [Mail Item:: ID:     99 | Arrival:   41 | Destination: 10 | Weight: 1663 | Fragile:  no]
+T:  41 > Delivered [Mail Item:: ID:    132 | Arrival:   29 | Destination:  6 | Weight:  235 | Fragile:  no | Priority:  80]
+T:  41 > R0(2/4)-> [Mail Item:: ID:     97 | Arrival:   26 | Destination:  3 | Weight:  608 | Fragile:  no | Priority:  40]
+T:  42 > Delivered [Mail Item:: ID:     78 | Arrival:   19 | Destination:  9 | Weight:  791 | Fragile:  no]
+T:  42 > R2(0/4) changed from DELIVERING to RETURNING
+T:  43 > new addToPool [Mail Item:: ID:     29 | Arrival:   43 | Destination:  1 | Weight:  277 | Fragile:  no]
+T:  44 > new addToPool [Mail Item:: ID:    108 | Arrival:   44 | Destination:  9 | Weight:  803 | Fragile:  no]
+T:  45 > new addToPool [Mail Item:: ID:    149 | Arrival:   45 | Destination:  2 | Weight:  802 | Fragile:  no]
+T:  45 > Delivered [Mail Item:: ID:     97 | Arrival:   26 | Destination:  3 | Weight:  608 | Fragile:  no | Priority:  40]
+T:  45 > R0(1/4)-> [Mail Item:: ID:    164 | Arrival:   25 | Destination:  8 | Weight: 1235 | Fragile:  no | Priority:  20]
+T:  46 > new addToPool [Mail Item:: ID:     28 | Arrival:   46 | Destination:  1 | Weight:  886 | Fragile:  no]
+T:  46 > new addToPool [Mail Item:: ID:    148 | Arrival:   46 | Destination:  3 | Weight:  247 | Fragile:  no | Priority:  10]
+T:  47 > new addToPool [Mail Item:: ID:    114 | Arrival:   47 | Destination:  8 | Weight:  564 | Fragile:  no]
+T:  47 > R1(0/4) changed from RETURNING to WAITING
+T:  48 > R1(3/4) changed from WAITING to DELIVERING
+T:  48 > R1(3/4)-> [Mail Item:: ID:     69 | Arrival:   37 | Destination:  3 | Weight:  962 | Fragile:  no | Priority:  60]
+T:  51 > new addToPool [Mail Item:: ID:    130 | Arrival:   51 | Destination:  5 | Weight: 1421 | Fragile:  no]
+T:  51 > Delivered [Mail Item:: ID:    164 | Arrival:   25 | Destination:  8 | Weight: 1235 | Fragile:  no | Priority:  20]
+T:  51 > R0(0/4)-> [Mail Item:: ID:     43 | Arrival:   27 | Destination:  9 | Weight:  878 | Fragile:  no]
+T:  51 > Delivered [Mail Item:: ID:     69 | Arrival:   37 | Destination:  3 | Weight:  962 | Fragile:  no | Priority:  60]
+T:  51 > R1(2/4)-> [Mail Item:: ID:     71 | Arrival:   38 | Destination:  2 | Weight: 1057 | Fragile:  no | Priority:  50]
+T:  51 > R2(0/4) changed from RETURNING to WAITING
+T:  52 > new addToPool [Mail Item:: ID:    142 | Arrival:   52 | Destination:  7 | Weight: 1310 | Fragile:  no]
+T:  52 > R2(3/4) changed from WAITING to DELIVERING
+T:  52 > R2(3/4)-> [Mail Item:: ID:    148 | Arrival:   46 | Destination:  3 | Weight:  247 | Fragile:  no | Priority:  10]
+T:  53 > new addToPool [Mail Item:: ID:     64 | Arrival:   53 | Destination:  9 | Weight: 1107 | Fragile:  no]
+T:  53 > new addToPool [Mail Item:: ID:    115 | Arrival:   53 | Destination: 10 | Weight:  398 | Fragile:  no]
+T:  53 > Delivered [Mail Item:: ID:     43 | Arrival:   27 | Destination:  9 | Weight:  878 | Fragile:  no]
+T:  53 > R0(0/4) changed from DELIVERING to RETURNING
+T:  53 > Delivered [Mail Item:: ID:     71 | Arrival:   38 | Destination:  2 | Weight: 1057 | Fragile:  no | Priority:  50]
+T:  53 > R1(1/4)-> [Mail Item:: ID:    168 | Arrival:   36 | Destination:  1 | Weight:  305 | Fragile:  no | Priority:  20]
+T:  54 > new addToPool [Mail Item:: ID:    105 | Arrival:   54 | Destination:  1 | Weight:  339 | Fragile:  no]
+T:  54 > new addToPool [Mail Item:: ID:    116 | Arrival:   54 | Destination:  2 | Weight:  806 | Fragile:  no | Priority:  60]
+T:  54 > new addToPool [Mail Item:: ID:    145 | Arrival:   54 | Destination:  1 | Weight: 1083 | Fragile:  no]
+T:  54 > new addToPool [Mail Item:: ID:    167 | Arrival:   54 | Destination:  4 | Weight:  509 | Fragile:  no]
+T:  54 > new addToPool [Mail Item:: ID:    169 | Arrival:   54 | Destination:  8 | Weight: 1626 | Fragile:  no]
+T:  55 > new addToPool [Mail Item:: ID:     20 | Arrival:   55 | Destination:  8 | Weight: 1965 | Fragile:  no]
+T:  55 > new addToPool [Mail Item:: ID:    109 | Arrival:   55 | Destination:  7 | Weight:  250 | Fragile:  no]
+T:  55 > Delivered [Mail Item:: ID:    168 | Arrival:   36 | Destination:  1 | Weight:  305 | Fragile:  no | Priority:  20]
+T:  55 > R1(0/4)-> [Mail Item:: ID:      8 | Arrival:   40 | Destination:  9 | Weight:  570 | Fragile:  no | Priority:  10]
+T:  55 > Delivered [Mail Item:: ID:    148 | Arrival:   46 | Destination:  3 | Weight:  247 | Fragile:  no | Priority:  10]
+T:  55 > R2(2/4)-> [Mail Item:: ID:     55 | Arrival:   40 | Destination: 10 | Weight: 1142 | Fragile:  no]
+T:  56 > new addToPool [Mail Item:: ID:    101 | Arrival:   56 | Destination:  2 | Weight: 1774 | Fragile:  no]
+T:  56 > new addToPool [Mail Item:: ID:    117 | Arrival:   56 | Destination:  4 | Weight: 1762 | Fragile:  no]
+T:  56 > new addToPool [Mail Item:: ID:    134 | Arrival:   56 | Destination:  3 | Weight:  471 | Fragile:  no]
+T:  57 > new addToPool [Mail Item:: ID:    146 | Arrival:   57 | Destination:  8 | Weight: 1639 | Fragile:  no | Priority:  30]
+T:  57 > new addToPool [Mail Item:: ID:    162 | Arrival:   57 | Destination:  7 | Weight: 1169 | Fragile:  no]
+T:  58 > new addToPool [Mail Item:: ID:    100 | Arrival:   58 | Destination:  5 | Weight:  923 | Fragile:  no]
+T:  58 > new addToPool [Mail Item:: ID:    126 | Arrival:   58 | Destination:  7 | Weight:  655 | Fragile:  no]
+T:  60 > new addToPool [Mail Item:: ID:     21 | Arrival:   60 | Destination: 10 | Weight:  738 | Fragile:  no]
+T:  60 > new addToPool [Mail Item:: ID:     84 | Arrival:   60 | Destination: 10 | Weight: 1407 | Fragile:  no]
+T:  60 > new addToPool [Mail Item:: ID:     90 | Arrival:   60 | Destination:  2 | Weight:  618 | Fragile:  no]
+T:  60 > new addToPool [Mail Item:: ID:    163 | Arrival:   60 | Destination:  3 | Weight:  602 | Fragile:  no]
+T:  61 > new addToPool [Mail Item:: ID:     22 | Arrival:   61 | Destination:  7 | Weight:  398 | Fragile:  no]
+T:  61 > new addToPool [Mail Item:: ID:     56 | Arrival:   61 | Destination:  2 | Weight:  966 | Fragile:  no]
+T:  62 > new addToPool [Mail Item:: ID:     27 | Arrival:   62 | Destination:  6 | Weight:  482 | Fragile:  no]
+T:  62 > new addToPool [Mail Item:: ID:    153 | Arrival:   62 | Destination:  2 | Weight:  555 | Fragile:  no]
+T:  62 > R0(0/4) changed from RETURNING to WAITING
+T:  63 > new addToPool [Mail Item:: ID:    139 | Arrival:   63 | Destination:  9 | Weight:  499 | Fragile:  no]
+T:  63 > R0(3/4) changed from WAITING to DELIVERING
+T:  63 > R0(3/4)-> [Mail Item:: ID:    116 | Arrival:   54 | Destination:  2 | Weight:  806 | Fragile:  no | Priority:  60]
+T:  63 > Delivered [Mail Item:: ID:     55 | Arrival:   40 | Destination: 10 | Weight: 1142 | Fragile:  no]
+T:  63 > R2(1/4)-> [Mail Item:: ID:     68 | Arrival:   41 | Destination: 10 | Weight:  703 | Fragile:  no]
+T:  64 > new addToPool [Mail Item:: ID:     18 | Arrival:   64 | Destination:  2 | Weight: 1452 | Fragile:  no]
+T:  64 > new addToPool [Mail Item:: ID:    147 | Arrival:   64 | Destination:  7 | Weight:  648 | Fragile:  no]
+T:  64 > Delivered [Mail Item:: ID:      8 | Arrival:   40 | Destination:  9 | Weight:  570 | Fragile:  no | Priority:  10]
+T:  64 > R1(0/4) changed from DELIVERING to RETURNING
+T:  64 > Delivered [Mail Item:: ID:     68 | Arrival:   41 | Destination: 10 | Weight:  703 | Fragile:  no]
+T:  64 > R2(0/4)-> [Mail Item:: ID:     99 | Arrival:   41 | Destination: 10 | Weight: 1663 | Fragile:  no]
+T:  65 > new addToPool [Mail Item:: ID:      2 | Arrival:   65 | Destination:  7 | Weight:  611 | Fragile:  no]
+T:  65 > new addToPool [Mail Item:: ID:     65 | Arrival:   65 | Destination:  4 | Weight:  847 | Fragile:  no]
+T:  65 > Delivered [Mail Item:: ID:    116 | Arrival:   54 | Destination:  2 | Weight:  806 | Fragile:  no | Priority:  60]
+T:  65 > R0(2/4)-> [Mail Item:: ID:    146 | Arrival:   57 | Destination:  8 | Weight: 1639 | Fragile:  no | Priority:  30]
+T:  65 > Delivered [Mail Item:: ID:     99 | Arrival:   41 | Destination: 10 | Weight: 1663 | Fragile:  no]
+T:  65 > R2(0/4) changed from DELIVERING to RETURNING
+T:  66 > new addToPool [Mail Item:: ID:    165 | Arrival:   66 | Destination:  5 | Weight:  336 | Fragile:  no]
+T:  67 > new addToPool [Mail Item:: ID:     11 | Arrival:   67 | Destination:  7 | Weight:  258 | Fragile:  no]
+T:  67 > new addToPool [Mail Item:: ID:     72 | Arrival:   67 | Destination:  9 | Weight:  317 | Fragile:  no]
+T:  68 > new addToPool [Mail Item:: ID:     91 | Arrival:   68 | Destination:  2 | Weight:  943 | Fragile:  no]
+T:  69 > new addToPool [Mail Item:: ID:     48 | Arrival:   69 | Destination:  9 | Weight:  498 | Fragile:  no]
+T:  69 > new addToPool [Mail Item:: ID:     96 | Arrival:   69 | Destination:  3 | Weight:  323 | Fragile:  no]
+T:  70 > new addToPool [Mail Item:: ID:     16 | Arrival:   70 | Destination: 10 | Weight:  411 | Fragile:  no]
+T:  71 > new addToPool [Mail Item:: ID:     35 | Arrival:   71 | Destination: 10 | Weight: 1477 | Fragile:  no | Priority:  70]
+T:  71 > new addToPool [Mail Item:: ID:     95 | Arrival:   71 | Destination:  5 | Weight:  658 | Fragile:  no]
+T:  72 > new addToPool [Mail Item:: ID:     82 | Arrival:   72 | Destination:  6 | Weight:  278 | Fragile:  no]
+T:  72 > new addToPool [Mail Item:: ID:    127 | Arrival:   72 | Destination:  7 | Weight:  248 | Fragile:  no]
+T:  72 > Delivered [Mail Item:: ID:    146 | Arrival:   57 | Destination:  8 | Weight: 1639 | Fragile:  no | Priority:  30]
+T:  72 > R0(1/4)-> [Mail Item:: ID:    115 | Arrival:   53 | Destination: 10 | Weight:  398 | Fragile:  no]
+T:  73 > new addToPool [Mail Item:: ID:     44 | Arrival:   73 | Destination:  2 | Weight:  736 | Fragile:  no]
+T:  73 > R1(0/4) changed from RETURNING to WAITING
+T:  74 > R1(3/4) changed from WAITING to DELIVERING
+T:  74 > R1(3/4)-> [Mail Item:: ID:     35 | Arrival:   71 | Destination: 10 | Weight: 1477 | Fragile:  no | Priority:  70]
+T:  75 > new addToPool [Mail Item:: ID:    137 | Arrival:   75 | Destination:  5 | Weight:  750 | Fragile:  no]
+T:  75 > Delivered [Mail Item:: ID:    115 | Arrival:   53 | Destination: 10 | Weight:  398 | Fragile:  no]
+T:  75 > R0(0/4)-> [Mail Item:: ID:     21 | Arrival:   60 | Destination: 10 | Weight:  738 | Fragile:  no]
+T:  75 > R2(0/4) changed from RETURNING to WAITING
+T:  76 > new addToPool [Mail Item:: ID:     60 | Arrival:   76 | Destination:  8 | Weight: 1339 | Fragile:  no]
+T:  76 > new addToPool [Mail Item:: ID:    121 | Arrival:   76 | Destination:  6 | Weight:  544 | Fragile:  no]
+T:  76 > Delivered [Mail Item:: ID:     21 | Arrival:   60 | Destination: 10 | Weight:  738 | Fragile:  no]
+T:  76 > R0(0/4) changed from DELIVERING to RETURNING
+T:  76 > R2(3/4) changed from WAITING to DELIVERING
+T:  76 > R2(3/4)-> [Mail Item:: ID:    118 | Arrival:   38 | Destination:  9 | Weight:  329 | Fragile:  no]
+T:  77 > new addToPool [Mail Item:: ID:      3 | Arrival:   77 | Destination:  2 | Weight:  523 | Fragile:  no]
+T:  77 > new addToPool [Mail Item:: ID:     73 | Arrival:   77 | Destination:  4 | Weight:  892 | Fragile:  no]
+T:  77 > new addToPool [Mail Item:: ID:     74 | Arrival:   77 | Destination:  3 | Weight:  556 | Fragile:  no]
+T:  77 > new addToPool [Mail Item:: ID:     77 | Arrival:   77 | Destination:  3 | Weight:  581 | Fragile:  no]
+T:  79 > new addToPool [Mail Item:: ID:     62 | Arrival:   79 | Destination:  7 | Weight: 1208 | Fragile:  no | Priority:  40]
+T:  79 > new addToPool [Mail Item:: ID:     88 | Arrival:   79 | Destination:  2 | Weight: 1762 | Fragile:  no]
+T:  80 > new addToPool [Mail Item:: ID:     14 | Arrival:   80 | Destination:  7 | Weight:  723 | Fragile:  no]
+T:  81 > new addToPool [Mail Item:: ID:     41 | Arrival:   81 | Destination:  5 | Weight:  820 | Fragile:  no | Priority:  20]
+T:  81 > new addToPool [Mail Item:: ID:    103 | Arrival:   81 | Destination:  9 | Weight: 1156 | Fragile:  no]
+T:  82 > new addToPool [Mail Item:: ID:     30 | Arrival:   82 | Destination:  9 | Weight: 1870 | Fragile:  no]
+T:  82 > new addToPool [Mail Item:: ID:     92 | Arrival:   82 | Destination:  9 | Weight: 1230 | Fragile:  no]
+T:  83 > new addToPool [Mail Item:: ID:    104 | Arrival:   83 | Destination:  8 | Weight:  534 | Fragile:  no]
+T:  84 > new addToPool [Mail Item:: ID:    125 | Arrival:   84 | Destination:  5 | Weight:  599 | Fragile:  no]
+T:  84 > new addToPool [Mail Item:: ID:    157 | Arrival:   84 | Destination: 10 | Weight: 1002 | Fragile:  no | Priority:  20]
+T:  84 > Delivered [Mail Item:: ID:     35 | Arrival:   71 | Destination: 10 | Weight: 1477 | Fragile:  no | Priority:  70]
+T:  84 > R1(2/4)-> [Mail Item:: ID:     84 | Arrival:   60 | Destination: 10 | Weight: 1407 | Fragile:  no]
+T:  85 > Delivered [Mail Item:: ID:     84 | Arrival:   60 | Destination: 10 | Weight: 1407 | Fragile:  no]
+T:  85 > R1(1/4)-> [Mail Item:: ID:     16 | Arrival:   70 | Destination: 10 | Weight:  411 | Fragile:  no]
+T:  85 > Delivered [Mail Item:: ID:    118 | Arrival:   38 | Destination:  9 | Weight:  329 | Fragile:  no]
+T:  85 > R2(2/4)-> [Mail Item:: ID:    108 | Arrival:   44 | Destination:  9 | Weight:  803 | Fragile:  no]
+T:  86 > R0(0/4) changed from RETURNING to WAITING
+T:  86 > Delivered [Mail Item:: ID:     16 | Arrival:   70 | Destination: 10 | Weight:  411 | Fragile:  no]
+T:  86 > R1(0/4)-> [Mail Item:: ID:    102 | Arrival:   36 | Destination:  9 | Weight:  257 | Fragile:  no]
+T:  86 > Delivered [Mail Item:: ID:    108 | Arrival:   44 | Destination:  9 | Weight:  803 | Fragile:  no]
+T:  86 > R2(1/4)-> [Mail Item:: ID:     64 | Arrival:   53 | Destination:  9 | Weight: 1107 | Fragile:  no]
+T:  87 > new addToPool [Mail Item:: ID:     25 | Arrival:   87 | Destination:  3 | Weight: 1331 | Fragile:  no]
+T:  87 > new addToPool [Mail Item:: ID:    159 | Arrival:   87 | Destination: 10 | Weight:  523 | Fragile:  no | Priority:  90]
+T:  87 > new addToPool [Mail Item:: ID:    166 | Arrival:   87 | Destination:  3 | Weight: 1360 | Fragile:  no]
+T:  87 > R0(3/4) changed from WAITING to DELIVERING
+T:  87 > R0(3/4)-> [Mail Item:: ID:    159 | Arrival:   87 | Destination: 10 | Weight:  523 | Fragile:  no | Priority:  90]
+T:  87 > Delivered [Mail Item:: ID:     64 | Arrival:   53 | Destination:  9 | Weight: 1107 | Fragile:  no]
+T:  87 > R2(0/4)-> [Mail Item:: ID:    139 | Arrival:   63 | Destination:  9 | Weight:  499 | Fragile:  no]
+T:  88 > Delivered [Mail Item:: ID:    102 | Arrival:   36 | Destination:  9 | Weight:  257 | Fragile:  no]
+T:  88 > R1(0/4) changed from DELIVERING to RETURNING
+T:  88 > Delivered [Mail Item:: ID:    139 | Arrival:   63 | Destination:  9 | Weight:  499 | Fragile:  no]
+T:  88 > R2(0/4) changed from DELIVERING to RETURNING
+T:  89 > new addToPool [Mail Item:: ID:     32 | Arrival:   89 | Destination:  2 | Weight: 1527 | Fragile:  no]
+T:  89 > new addToPool [Mail Item:: ID:     38 | Arrival:   89 | Destination:  4 | Weight:  203 | Fragile:  no]
+T:  89 > new addToPool [Mail Item:: ID:    158 | Arrival:   89 | Destination:  1 | Weight:  425 | Fragile:  no]
+T:  90 > new addToPool [Mail Item:: ID:     54 | Arrival:   90 | Destination:  6 | Weight:  369 | Fragile:  no]
+T:  90 > new addToPool [Mail Item:: ID:     67 | Arrival:   90 | Destination:  3 | Weight:  706 | Fragile:  no]
+T:  90 > new addToPool [Mail Item:: ID:     75 | Arrival:   90 | Destination:  3 | Weight:  710 | Fragile:  no]
+T:  91 > new addToPool [Mail Item:: ID:     40 | Arrival:   91 | Destination:  6 | Weight: 1627 | Fragile:  no | Priority:  60]
+T:  91 > new addToPool [Mail Item:: ID:     42 | Arrival:   91 | Destination: 10 | Weight:  376 | Fragile:  no]
+T:  91 > new addToPool [Mail Item:: ID:     83 | Arrival:   91 | Destination:  1 | Weight: 1138 | Fragile:  no]
+T:  91 > new addToPool [Mail Item:: ID:     87 | Arrival:   91 | Destination:  2 | Weight:  703 | Fragile:  no]
+T:  92 > new addToPool [Mail Item:: ID:    138 | Arrival:   92 | Destination:  6 | Weight: 1003 | Fragile:  no]
+T:  93 > new addToPool [Mail Item:: ID:     47 | Arrival:   93 | Destination:  2 | Weight: 1240 | Fragile:  no | Priority:  70]
+T:  93 > new addToPool [Mail Item:: ID:    143 | Arrival:   93 | Destination:  9 | Weight:  438 | Fragile:  no]
+T:  96 > new addToPool [Mail Item:: ID:     13 | Arrival:   96 | Destination:  5 | Weight:  588 | Fragile:  no]
+T:  96 > new addToPool [Mail Item:: ID:    151 | Arrival:   96 | Destination: 10 | Weight:  452 | Fragile:  no]
+T:  97 > Delivered [Mail Item:: ID:    159 | Arrival:   87 | Destination: 10 | Weight:  523 | Fragile:  no | Priority:  90]
+T:  97 > R0(2/4)-> [Mail Item:: ID:     62 | Arrival:   79 | Destination:  7 | Weight: 1208 | Fragile:  no | Priority:  40]
+T:  97 > R1(0/4) changed from RETURNING to WAITING
+T:  97 > R2(0/4) changed from RETURNING to WAITING
+T:  98 > new addToPool [Mail Item:: ID:    136 | Arrival:   98 | Destination:  8 | Weight:  857 | Fragile:  no | Priority:  40]
+T:  98 > R1(3/4) changed from WAITING to DELIVERING
+T:  98 > R1(3/4)-> [Mail Item:: ID:     47 | Arrival:   93 | Destination:  2 | Weight: 1240 | Fragile:  no | Priority:  70]
+T:  98 > R2(3/4) changed from WAITING to DELIVERING
+T:  98 > R2(3/4)-> [Mail Item:: ID:    151 | Arrival:   96 | Destination: 10 | Weight:  452 | Fragile:  no]
+T:  99 > new addToPool [Mail Item:: ID:    113 | Arrival:   99 | Destination:  7 | Weight:  521 | Fragile:  no]
+T: 100 > new addToPool [Mail Item:: ID:     45 | Arrival:  100 | Destination:  8 | Weight:  486 | Fragile:  no]
+T: 100 > Delivered [Mail Item:: ID:     47 | Arrival:   93 | Destination:  2 | Weight: 1240 | Fragile:  no | Priority:  70]
+T: 100 > R1(2/4)-> [Mail Item:: ID:     40 | Arrival:   91 | Destination:  6 | Weight: 1627 | Fragile:  no | Priority:  60]
+T: 101 > new addToPool [Mail Item:: ID:     53 | Arrival:  101 | Destination:  8 | Weight:  581 | Fragile:  no]
+T: 101 > Delivered [Mail Item:: ID:     62 | Arrival:   79 | Destination:  7 | Weight: 1208 | Fragile:  no | Priority:  40]
+T: 101 > R0(1/4)-> [Mail Item:: ID:    157 | Arrival:   84 | Destination: 10 | Weight: 1002 | Fragile:  no | Priority:  20]
+T: 102 > new addToPool [Mail Item:: ID:     15 | Arrival:  102 | Destination:  5 | Weight: 1390 | Fragile:  no]
+T: 102 > new addToPool [Mail Item:: ID:     94 | Arrival:  102 | Destination:  2 | Weight:  356 | Fragile:  no]
+T: 103 > new addToPool [Mail Item:: ID:      1 | Arrival:  103 | Destination: 10 | Weight:  545 | Fragile:  no]
+T: 103 > new addToPool [Mail Item:: ID:     49 | Arrival:  103 | Destination:  6 | Weight:  851 | Fragile:  no]
+T: 105 > new addToPool [Mail Item:: ID:    140 | Arrival:  105 | Destination:  4 | Weight:  453 | Fragile:  no]
+T: 105 > Delivered [Mail Item:: ID:    157 | Arrival:   84 | Destination: 10 | Weight: 1002 | Fragile:  no | Priority:  20]
+T: 105 > R0(0/4)-> [Mail Item:: ID:     41 | Arrival:   81 | Destination:  5 | Weight:  820 | Fragile:  no | Priority:  20]
+T: 105 > Delivered [Mail Item:: ID:     40 | Arrival:   91 | Destination:  6 | Weight: 1627 | Fragile:  no | Priority:  60]
+T: 105 > R1(1/4)-> [Mail Item:: ID:    136 | Arrival:   98 | Destination:  8 | Weight:  857 | Fragile:  no | Priority:  40]
+T: 107 > new addToPool [Mail Item:: ID:    170 | Arrival:  107 | Destination:  9 | Weight:  844 | Fragile:  no | Priority:  90]
+T: 108 > new addToPool [Mail Item:: ID:    144 | Arrival:  108 | Destination:  3 | Weight: 1036 | Fragile:  no]
+T: 108 > Delivered [Mail Item:: ID:    136 | Arrival:   98 | Destination:  8 | Weight:  857 | Fragile:  no | Priority:  40]
+T: 108 > R1(0/4)-> [Mail Item:: ID:     42 | Arrival:   91 | Destination: 10 | Weight:  376 | Fragile:  no]
+T: 108 > Delivered [Mail Item:: ID:    151 | Arrival:   96 | Destination: 10 | Weight:  452 | Fragile:  no]
+T: 108 > R2(2/4)-> [Mail Item:: ID:     72 | Arrival:   67 | Destination:  9 | Weight:  317 | Fragile:  no]
+T: 109 > new addToPool [Mail Item:: ID:      0 | Arrival:  109 | Destination:  1 | Weight:  864 | Fragile:  no]
+T: 109 > new addToPool [Mail Item:: ID:     23 | Arrival:  109 | Destination:  2 | Weight:  885 | Fragile:  no]
+T: 110 > Delivered [Mail Item:: ID:     72 | Arrival:   67 | Destination:  9 | Weight:  317 | Fragile:  no]
+T: 110 > R2(1/4)-> [Mail Item:: ID:     48 | Arrival:   69 | Destination:  9 | Weight:  498 | Fragile:  no]
+T: 111 > new addToPool [Mail Item:: ID:     31 | Arrival:  111 | Destination:  2 | Weight:  354 | Fragile:  no]
+T: 111 > new addToPool [Mail Item:: ID:    123 | Arrival:  111 | Destination: 10 | Weight: 1112 | Fragile:  no | Priority:  30]
+T: 111 > Delivered [Mail Item:: ID:     41 | Arrival:   81 | Destination:  5 | Weight:  820 | Fragile:  no | Priority:  20]
+T: 111 > R0(0/4) changed from DELIVERING to RETURNING
+T: 111 > Delivered [Mail Item:: ID:     42 | Arrival:   91 | Destination: 10 | Weight:  376 | Fragile:  no]
+T: 111 > R1(0/4) changed from DELIVERING to RETURNING
+T: 111 > Delivered [Mail Item:: ID:     48 | Arrival:   69 | Destination:  9 | Weight:  498 | Fragile:  no]
+T: 111 > R2(0/4)-> [Mail Item:: ID:    103 | Arrival:   81 | Destination:  9 | Weight: 1156 | Fragile:  no]
+T: 112 > new addToPool [Mail Item:: ID:     37 | Arrival:  112 | Destination:  8 | Weight:  886 | Fragile:  no]
+T: 112 > new addToPool [Mail Item:: ID:    156 | Arrival:  112 | Destination:  1 | Weight:  386 | Fragile:  no]
+T: 112 > Delivered [Mail Item:: ID:    103 | Arrival:   81 | Destination:  9 | Weight: 1156 | Fragile:  no]
+T: 112 > R2(0/4) changed from DELIVERING to RETURNING
+T: 116 > new addToPool [Mail Item:: ID:     12 | Arrival:  116 | Destination:  3 | Weight:  222 | Fragile:  no]
+T: 116 > new addToPool [Mail Item:: ID:     52 | Arrival:  116 | Destination:  4 | Weight:  557 | Fragile:  no | Priority:  50]
+T: 116 > R0(0/4) changed from RETURNING to WAITING
+T: 117 > R0(3/4) changed from WAITING to DELIVERING
+T: 117 > R0(3/4)-> [Mail Item:: ID:    170 | Arrival:  107 | Destination:  9 | Weight:  844 | Fragile:  no | Priority:  90]
+T: 118 > new addToPool [Mail Item:: ID:    160 | Arrival:  118 | Destination: 10 | Weight: 1070 | Fragile:  no]
+T: 119 > new addToPool [Mail Item:: ID:      9 | Arrival:  119 | Destination:  8 | Weight: 1174 | Fragile:  no]
+T: 119 > new addToPool [Mail Item:: ID:    150 | Arrival:  119 | Destination:  8 | Weight:  815 | Fragile:  no]
+T: 120 > new addToPool [Mail Item:: ID:     26 | Arrival:  120 | Destination:  7 | Weight:  848 | Fragile:  no | Priority:  50]
+T: 121 > R1(0/4) changed from RETURNING to WAITING
+T: 121 > R2(0/4) changed from RETURNING to WAITING
+T: 122 > R1(3/4) changed from WAITING to DELIVERING
+T: 122 > R1(3/4)-> [Mail Item:: ID:     26 | Arrival:  120 | Destination:  7 | Weight:  848 | Fragile:  no | Priority:  50]
+T: 122 > R2(3/4) changed from WAITING to DELIVERING
+T: 122 > R2(3/4)-> [Mail Item:: ID:    143 | Arrival:   93 | Destination:  9 | Weight:  438 | Fragile:  no]
+T: 126 > Delivered [Mail Item:: ID:    170 | Arrival:  107 | Destination:  9 | Weight:  844 | Fragile:  no | Priority:  90]
+T: 126 > R0(2/4)-> [Mail Item:: ID:     52 | Arrival:  116 | Destination:  4 | Weight:  557 | Fragile:  no | Priority:  50]
+T: 129 > Delivered [Mail Item:: ID:     26 | Arrival:  120 | Destination:  7 | Weight:  848 | Fragile:  no | Priority:  50]
+T: 129 > R1(2/4)-> [Mail Item:: ID:    160 | Arrival:  118 | Destination: 10 | Weight: 1070 | Fragile:  no]
+T: 131 > Delivered [Mail Item:: ID:    143 | Arrival:   93 | Destination:  9 | Weight:  438 | Fragile:  no]
+T: 131 > R2(2/4)-> [Mail Item:: ID:     59 | Arrival:    6 | Destination:  8 | Weight:  702 | Fragile:  no]
+T: 132 > Delivered [Mail Item:: ID:     52 | Arrival:  116 | Destination:  4 | Weight:  557 | Fragile:  no | Priority:  50]
+T: 132 > R0(1/4)-> [Mail Item:: ID:    123 | Arrival:  111 | Destination: 10 | Weight: 1112 | Fragile:  no | Priority:  30]
+T: 133 > Delivered [Mail Item:: ID:    160 | Arrival:  118 | Destination: 10 | Weight: 1070 | Fragile:  no]
+T: 133 > R1(1/4)-> [Mail Item:: ID:     30 | Arrival:   82 | Destination:  9 | Weight: 1870 | Fragile:  no]
+T: 133 > Delivered [Mail Item:: ID:     59 | Arrival:    6 | Destination:  8 | Weight:  702 | Fragile:  no]
+T: 133 > R2(1/4)-> [Mail Item:: ID:     39 | Arrival:   13 | Destination:  8 | Weight:  884 | Fragile:  no]
+T: 134 > Delivered [Mail Item:: ID:     39 | Arrival:   13 | Destination:  8 | Weight:  884 | Fragile:  no]
+T: 134 > R2(0/4)-> [Mail Item:: ID:     86 | Arrival:   19 | Destination:  8 | Weight:  435 | Fragile:  no]
+T: 135 > Delivered [Mail Item:: ID:     30 | Arrival:   82 | Destination:  9 | Weight: 1870 | Fragile:  no]
+T: 135 > R1(0/4)-> [Mail Item:: ID:     92 | Arrival:   82 | Destination:  9 | Weight: 1230 | Fragile:  no]
+T: 135 > Delivered [Mail Item:: ID:     86 | Arrival:   19 | Destination:  8 | Weight:  435 | Fragile:  no]
+T: 135 > R2(0/4) changed from DELIVERING to RETURNING
+T: 136 > Delivered [Mail Item:: ID:     92 | Arrival:   82 | Destination:  9 | Weight: 1230 | Fragile:  no]
+T: 136 > R1(0/4) changed from DELIVERING to RETURNING
+T: 139 > Delivered [Mail Item:: ID:    123 | Arrival:  111 | Destination: 10 | Weight: 1112 | Fragile:  no | Priority:  30]
+T: 139 > R0(0/4)-> [Mail Item:: ID:      1 | Arrival:  103 | Destination: 10 | Weight:  545 | Fragile:  no]
+T: 140 > Delivered [Mail Item:: ID:      1 | Arrival:  103 | Destination: 10 | Weight:  545 | Fragile:  no]
+T: 140 > R0(0/4) changed from DELIVERING to RETURNING
+T: 143 > R2(0/4) changed from RETURNING to WAITING
+T: 144 > R2(3/4) changed from WAITING to DELIVERING
+T: 144 > R2(3/4)-> [Mail Item:: ID:     24 | Arrival:   37 | Destination:  8 | Weight: 1085 | Fragile:  no]
+T: 145 > R1(0/4) changed from RETURNING to WAITING
+T: 146 > R1(3/4) changed from WAITING to DELIVERING
+T: 146 > R1(3/4)-> [Mail Item:: ID:     60 | Arrival:   76 | Destination:  8 | Weight: 1339 | Fragile:  no]
+T: 150 > R0(0/4) changed from RETURNING to WAITING
+T: 151 > R0(3/4) changed from WAITING to DELIVERING
+T: 151 > R0(3/4)-> [Mail Item:: ID:     37 | Arrival:  112 | Destination:  8 | Weight:  886 | Fragile:  no]
+T: 152 > Delivered [Mail Item:: ID:     24 | Arrival:   37 | Destination:  8 | Weight: 1085 | Fragile:  no]
+T: 152 > R2(2/4)-> [Mail Item:: ID:    114 | Arrival:   47 | Destination:  8 | Weight:  564 | Fragile:  no]
+T: 153 > Delivered [Mail Item:: ID:    114 | Arrival:   47 | Destination:  8 | Weight:  564 | Fragile:  no]
+T: 153 > R2(1/4)-> [Mail Item:: ID:    169 | Arrival:   54 | Destination:  8 | Weight: 1626 | Fragile:  no]
+T: 154 > Delivered [Mail Item:: ID:     60 | Arrival:   76 | Destination:  8 | Weight: 1339 | Fragile:  no]
+T: 154 > R1(2/4)-> [Mail Item:: ID:    104 | Arrival:   83 | Destination:  8 | Weight:  534 | Fragile:  no]
+T: 154 > Delivered [Mail Item:: ID:    169 | Arrival:   54 | Destination:  8 | Weight: 1626 | Fragile:  no]
+T: 154 > R2(0/4)-> [Mail Item:: ID:     20 | Arrival:   55 | Destination:  8 | Weight: 1965 | Fragile:  no]
+T: 155 > Delivered [Mail Item:: ID:    104 | Arrival:   83 | Destination:  8 | Weight:  534 | Fragile:  no]
+T: 155 > R1(1/4)-> [Mail Item:: ID:     45 | Arrival:  100 | Destination:  8 | Weight:  486 | Fragile:  no]
+T: 155 > Delivered [Mail Item:: ID:     20 | Arrival:   55 | Destination:  8 | Weight: 1965 | Fragile:  no]
+T: 155 > R2(0/4) changed from DELIVERING to RETURNING
+T: 156 > Delivered [Mail Item:: ID:     45 | Arrival:  100 | Destination:  8 | Weight:  486 | Fragile:  no]
+T: 156 > R1(0/4)-> [Mail Item:: ID:     53 | Arrival:  101 | Destination:  8 | Weight:  581 | Fragile:  no]
+T: 157 > Delivered [Mail Item:: ID:     53 | Arrival:  101 | Destination:  8 | Weight:  581 | Fragile:  no]
+T: 157 > R1(0/4) changed from DELIVERING to RETURNING
+T: 159 > Delivered [Mail Item:: ID:     37 | Arrival:  112 | Destination:  8 | Weight:  886 | Fragile:  no]
+T: 159 > R0(2/4)-> [Mail Item:: ID:      9 | Arrival:  119 | Destination:  8 | Weight: 1174 | Fragile:  no]
+T: 160 > Delivered [Mail Item:: ID:      9 | Arrival:  119 | Destination:  8 | Weight: 1174 | Fragile:  no]
+T: 160 > R0(1/4)-> [Mail Item:: ID:    150 | Arrival:  119 | Destination:  8 | Weight:  815 | Fragile:  no]
+T: 161 > Delivered [Mail Item:: ID:    150 | Arrival:  119 | Destination:  8 | Weight:  815 | Fragile:  no]
+T: 161 > R0(0/4)-> [Mail Item:: ID:     81 | Arrival:    8 | Destination:  7 | Weight:  685 | Fragile:  no]
+T: 163 > Delivered [Mail Item:: ID:     81 | Arrival:    8 | Destination:  7 | Weight:  685 | Fragile:  no]
+T: 163 > R0(0/4) changed from DELIVERING to RETURNING
+T: 163 > R2(0/4) changed from RETURNING to WAITING
+T: 164 > R2(3/4) changed from WAITING to DELIVERING
+T: 164 > R2(3/4)-> [Mail Item:: ID:     19 | Arrival:   14 | Destination:  7 | Weight:  539 | Fragile:  no]
+T: 165 > R1(0/4) changed from RETURNING to WAITING
+T: 166 > R1(3/4) changed from WAITING to DELIVERING
+T: 166 > R1(3/4)-> [Mail Item:: ID:    112 | Arrival:   34 | Destination:  7 | Weight: 1330 | Fragile:  no]
+T: 170 > R0(0/4) changed from RETURNING to WAITING
+T: 171 > R0(3/4) changed from WAITING to DELIVERING
+T: 171 > R0(3/4)-> [Mail Item:: ID:    162 | Arrival:   57 | Destination:  7 | Weight: 1169 | Fragile:  no]
+T: 171 > Delivered [Mail Item:: ID:     19 | Arrival:   14 | Destination:  7 | Weight:  539 | Fragile:  no]
+T: 171 > R2(2/4)-> [Mail Item:: ID:    107 | Arrival:   17 | Destination:  7 | Weight:  477 | Fragile:  no]
+T: 172 > Delivered [Mail Item:: ID:    107 | Arrival:   17 | Destination:  7 | Weight:  477 | Fragile:  no]
+T: 172 > R2(1/4)-> [Mail Item:: ID:     17 | Arrival:   21 | Destination:  7 | Weight: 1087 | Fragile:  no]
+T: 173 > Delivered [Mail Item:: ID:    112 | Arrival:   34 | Destination:  7 | Weight: 1330 | Fragile:  no]
+T: 173 > R1(2/4)-> [Mail Item:: ID:     46 | Arrival:   35 | Destination:  7 | Weight: 1292 | Fragile:  no]
+T: 173 > Delivered [Mail Item:: ID:     17 | Arrival:   21 | Destination:  7 | Weight: 1087 | Fragile:  no]
+T: 173 > R2(0/4)-> [Mail Item:: ID:    154 | Arrival:   27 | Destination:  7 | Weight:  340 | Fragile:  no]
+T: 174 > Delivered [Mail Item:: ID:     46 | Arrival:   35 | Destination:  7 | Weight: 1292 | Fragile:  no]
+T: 174 > R1(1/4)-> [Mail Item:: ID:    142 | Arrival:   52 | Destination:  7 | Weight: 1310 | Fragile:  no]
+T: 174 > Delivered [Mail Item:: ID:    154 | Arrival:   27 | Destination:  7 | Weight:  340 | Fragile:  no]
+T: 174 > R2(0/4) changed from DELIVERING to RETURNING
+T: 175 > Delivered [Mail Item:: ID:    142 | Arrival:   52 | Destination:  7 | Weight: 1310 | Fragile:  no]
+T: 175 > R1(0/4)-> [Mail Item:: ID:    109 | Arrival:   55 | Destination:  7 | Weight:  250 | Fragile:  no]
+T: 176 > Delivered [Mail Item:: ID:    109 | Arrival:   55 | Destination:  7 | Weight:  250 | Fragile:  no]
+T: 176 > R1(0/4) changed from DELIVERING to RETURNING
+T: 178 > Delivered [Mail Item:: ID:    162 | Arrival:   57 | Destination:  7 | Weight: 1169 | Fragile:  no]
+T: 178 > R0(2/4)-> [Mail Item:: ID:    126 | Arrival:   58 | Destination:  7 | Weight:  655 | Fragile:  no]
+T: 179 > Delivered [Mail Item:: ID:    126 | Arrival:   58 | Destination:  7 | Weight:  655 | Fragile:  no]
+T: 179 > R0(1/4)-> [Mail Item:: ID:     22 | Arrival:   61 | Destination:  7 | Weight:  398 | Fragile:  no]
+T: 180 > Delivered [Mail Item:: ID:     22 | Arrival:   61 | Destination:  7 | Weight:  398 | Fragile:  no]
+T: 180 > R0(0/4)-> [Mail Item:: ID:    147 | Arrival:   64 | Destination:  7 | Weight:  648 | Fragile:  no]
+T: 181 > Delivered [Mail Item:: ID:    147 | Arrival:   64 | Destination:  7 | Weight:  648 | Fragile:  no]
+T: 181 > R0(0/4) changed from DELIVERING to RETURNING
+T: 181 > R2(0/4) changed from RETURNING to WAITING
+T: 182 > R2(3/4) changed from WAITING to DELIVERING
+T: 182 > R2(3/4)-> [Mail Item:: ID:      2 | Arrival:   65 | Destination:  7 | Weight:  611 | Fragile:  no]
+T: 183 > R1(0/4) changed from RETURNING to WAITING
+T: 184 > R1(3/4) changed from WAITING to DELIVERING
+T: 184 > R1(3/4)-> [Mail Item:: ID:    113 | Arrival:   99 | Destination:  7 | Weight:  521 | Fragile:  no]
+T: 188 > R0(0/4) changed from RETURNING to WAITING
+T: 189 > R0(3/4) changed from WAITING to DELIVERING
+T: 189 > R0(3/4)-> [Mail Item:: ID:     82 | Arrival:   72 | Destination:  6 | Weight:  278 | Fragile:  no]
+T: 189 > Delivered [Mail Item:: ID:      2 | Arrival:   65 | Destination:  7 | Weight:  611 | Fragile:  no]
+T: 189 > R2(2/4)-> [Mail Item:: ID:     11 | Arrival:   67 | Destination:  7 | Weight:  258 | Fragile:  no]
+T: 190 > Delivered [Mail Item:: ID:     11 | Arrival:   67 | Destination:  7 | Weight:  258 | Fragile:  no]
+T: 190 > R2(1/4)-> [Mail Item:: ID:    127 | Arrival:   72 | Destination:  7 | Weight:  248 | Fragile:  no]
+T: 191 > Delivered [Mail Item:: ID:    113 | Arrival:   99 | Destination:  7 | Weight:  521 | Fragile:  no]
+T: 191 > R1(2/4)-> [Mail Item:: ID:    141 | Arrival:   32 | Destination:  6 | Weight:  487 | Fragile:  no]
+T: 191 > Delivered [Mail Item:: ID:    127 | Arrival:   72 | Destination:  7 | Weight:  248 | Fragile:  no]
+T: 191 > R2(0/4)-> [Mail Item:: ID:     14 | Arrival:   80 | Destination:  7 | Weight:  723 | Fragile:  no]
+T: 192 > Delivered [Mail Item:: ID:     14 | Arrival:   80 | Destination:  7 | Weight:  723 | Fragile:  no]
+T: 192 > R2(0/4) changed from DELIVERING to RETURNING
+T: 193 > Delivered [Mail Item:: ID:    141 | Arrival:   32 | Destination:  6 | Weight:  487 | Fragile:  no]
+T: 193 > R1(1/4)-> [Mail Item:: ID:      5 | Arrival:   36 | Destination:  6 | Weight: 1066 | Fragile:  no]
+T: 194 > Delivered [Mail Item:: ID:      5 | Arrival:   36 | Destination:  6 | Weight: 1066 | Fragile:  no]
+T: 194 > R1(0/4)-> [Mail Item:: ID:     27 | Arrival:   62 | Destination:  6 | Weight:  482 | Fragile:  no]
+T: 195 > Delivered [Mail Item:: ID:     82 | Arrival:   72 | Destination:  6 | Weight:  278 | Fragile:  no]
+T: 195 > R0(2/4)-> [Mail Item:: ID:    121 | Arrival:   76 | Destination:  6 | Weight:  544 | Fragile:  no]
+T: 195 > Delivered [Mail Item:: ID:     27 | Arrival:   62 | Destination:  6 | Weight:  482 | Fragile:  no]
+T: 195 > R1(0/4) changed from DELIVERING to RETURNING
+T: 196 > Delivered [Mail Item:: ID:    121 | Arrival:   76 | Destination:  6 | Weight:  544 | Fragile:  no]
+T: 196 > R0(1/4)-> [Mail Item:: ID:     54 | Arrival:   90 | Destination:  6 | Weight:  369 | Fragile:  no]
+T: 197 > Delivered [Mail Item:: ID:     54 | Arrival:   90 | Destination:  6 | Weight:  369 | Fragile:  no]
+T: 197 > R0(0/4)-> [Mail Item:: ID:    138 | Arrival:   92 | Destination:  6 | Weight: 1003 | Fragile:  no]
+T: 198 > Delivered [Mail Item:: ID:    138 | Arrival:   92 | Destination:  6 | Weight: 1003 | Fragile:  no]
+T: 198 > R0(0/4) changed from DELIVERING to RETURNING
+T: 199 > R2(0/4) changed from RETURNING to WAITING
+T: 200 > R2(3/4) changed from WAITING to DELIVERING
+T: 200 > R2(3/4)-> [Mail Item:: ID:     49 | Arrival:  103 | Destination:  6 | Weight:  851 | Fragile:  no]
+T: 201 > R1(0/4) changed from RETURNING to WAITING
+T: 202 > R1(3/4) changed from WAITING to DELIVERING
+T: 202 > R1(3/4)-> [Mail Item:: ID:    130 | Arrival:   51 | Destination:  5 | Weight: 1421 | Fragile:  no]
+T: 204 > R0(0/4) changed from RETURNING to WAITING
+T: 205 > R0(3/4) changed from WAITING to DELIVERING
+T: 205 > R0(3/4)-> [Mail Item:: ID:    137 | Arrival:   75 | Destination:  5 | Weight:  750 | Fragile:  no]
+T: 206 > Delivered [Mail Item:: ID:     49 | Arrival:  103 | Destination:  6 | Weight:  851 | Fragile:  no]
+T: 206 > R2(2/4)-> [Mail Item:: ID:     93 | Arrival:   13 | Destination:  5 | Weight:  532 | Fragile:  no]
+T: 207 > Delivered [Mail Item:: ID:    130 | Arrival:   51 | Destination:  5 | Weight: 1421 | Fragile:  no]
+T: 207 > R1(2/4)-> [Mail Item:: ID:    100 | Arrival:   58 | Destination:  5 | Weight:  923 | Fragile:  no]
+T: 208 > Delivered [Mail Item:: ID:    100 | Arrival:   58 | Destination:  5 | Weight:  923 | Fragile:  no]
+T: 208 > R1(1/4)-> [Mail Item:: ID:    165 | Arrival:   66 | Destination:  5 | Weight:  336 | Fragile:  no]
+T: 208 > Delivered [Mail Item:: ID:     93 | Arrival:   13 | Destination:  5 | Weight:  532 | Fragile:  no]
+T: 208 > R2(1/4)-> [Mail Item:: ID:     80 | Arrival:   19 | Destination:  5 | Weight: 1105 | Fragile:  no]
+T: 209 > Delivered [Mail Item:: ID:    165 | Arrival:   66 | Destination:  5 | Weight:  336 | Fragile:  no]
+T: 209 > R1(0/4)-> [Mail Item:: ID:     95 | Arrival:   71 | Destination:  5 | Weight:  658 | Fragile:  no]
+T: 209 > Delivered [Mail Item:: ID:     80 | Arrival:   19 | Destination:  5 | Weight: 1105 | Fragile:  no]
+T: 209 > R2(0/4)-> [Mail Item:: ID:     89 | Arrival:   26 | Destination:  5 | Weight:  380 | Fragile:  no]
+T: 210 > Delivered [Mail Item:: ID:    137 | Arrival:   75 | Destination:  5 | Weight:  750 | Fragile:  no]
+T: 210 > R0(2/4)-> [Mail Item:: ID:    125 | Arrival:   84 | Destination:  5 | Weight:  599 | Fragile:  no]
+T: 210 > Delivered [Mail Item:: ID:     95 | Arrival:   71 | Destination:  5 | Weight:  658 | Fragile:  no]
+T: 210 > R1(0/4) changed from DELIVERING to RETURNING
+T: 210 > Delivered [Mail Item:: ID:     89 | Arrival:   26 | Destination:  5 | Weight:  380 | Fragile:  no]
+T: 210 > R2(0/4) changed from DELIVERING to RETURNING
+T: 211 > Delivered [Mail Item:: ID:    125 | Arrival:   84 | Destination:  5 | Weight:  599 | Fragile:  no]
+T: 211 > R0(1/4)-> [Mail Item:: ID:     13 | Arrival:   96 | Destination:  5 | Weight:  588 | Fragile:  no]
+T: 212 > Delivered [Mail Item:: ID:     13 | Arrival:   96 | Destination:  5 | Weight:  588 | Fragile:  no]
+T: 212 > R0(0/4)-> [Mail Item:: ID:     15 | Arrival:  102 | Destination:  5 | Weight: 1390 | Fragile:  no]
+T: 213 > Delivered [Mail Item:: ID:     15 | Arrival:  102 | Destination:  5 | Weight: 1390 | Fragile:  no]
+T: 213 > R0(0/4) changed from DELIVERING to RETURNING
+T: 215 > R1(0/4) changed from RETURNING to WAITING
+T: 215 > R2(0/4) changed from RETURNING to WAITING
+T: 216 > R1(3/4) changed from WAITING to DELIVERING
+T: 216 > R1(3/4)-> [Mail Item:: ID:     33 | Arrival:    6 | Destination:  4 | Weight:  745 | Fragile:  no]
+T: 216 > R2(3/4) changed from WAITING to DELIVERING
+T: 216 > R2(3/4)-> [Mail Item:: ID:    135 | Arrival:   30 | Destination:  4 | Weight: 1105 | Fragile:  no]
+T: 218 > R0(0/4) changed from RETURNING to WAITING
+T: 219 > R0(3/4) changed from WAITING to DELIVERING
+T: 219 > R0(3/4)-> [Mail Item:: ID:     73 | Arrival:   77 | Destination:  4 | Weight:  892 | Fragile:  no]
+T: 220 > Delivered [Mail Item:: ID:     33 | Arrival:    6 | Destination:  4 | Weight:  745 | Fragile:  no]
+T: 220 > R1(2/4)-> [Mail Item:: ID:    119 | Arrival:   13 | Destination:  4 | Weight:  424 | Fragile:  no]
+T: 220 > Delivered [Mail Item:: ID:    135 | Arrival:   30 | Destination:  4 | Weight: 1105 | Fragile:  no]
+T: 220 > R2(2/4)-> [Mail Item:: ID:    167 | Arrival:   54 | Destination:  4 | Weight:  509 | Fragile:  no]
+T: 221 > Delivered [Mail Item:: ID:    119 | Arrival:   13 | Destination:  4 | Weight:  424 | Fragile:  no]
+T: 221 > R1(1/4)-> [Mail Item:: ID:    155 | Arrival:   17 | Destination:  4 | Weight:  206 | Fragile:  no]
+T: 221 > Delivered [Mail Item:: ID:    167 | Arrival:   54 | Destination:  4 | Weight:  509 | Fragile:  no]
+T: 221 > R2(1/4)-> [Mail Item:: ID:    117 | Arrival:   56 | Destination:  4 | Weight: 1762 | Fragile:  no]
+T: 222 > Delivered [Mail Item:: ID:    155 | Arrival:   17 | Destination:  4 | Weight:  206 | Fragile:  no]
+T: 222 > R1(0/4)-> [Mail Item:: ID:     58 | Arrival:   23 | Destination:  4 | Weight: 1374 | Fragile:  no]
+T: 222 > Delivered [Mail Item:: ID:    117 | Arrival:   56 | Destination:  4 | Weight: 1762 | Fragile:  no]
+T: 222 > R2(0/4)-> [Mail Item:: ID:     65 | Arrival:   65 | Destination:  4 | Weight:  847 | Fragile:  no]
+T: 223 > Delivered [Mail Item:: ID:     73 | Arrival:   77 | Destination:  4 | Weight:  892 | Fragile:  no]
+T: 223 > R0(2/4)-> [Mail Item:: ID:     38 | Arrival:   89 | Destination:  4 | Weight:  203 | Fragile:  no]
+T: 223 > Delivered [Mail Item:: ID:     58 | Arrival:   23 | Destination:  4 | Weight: 1374 | Fragile:  no]
+T: 223 > R1(0/4) changed from DELIVERING to RETURNING
+T: 223 > Delivered [Mail Item:: ID:     65 | Arrival:   65 | Destination:  4 | Weight:  847 | Fragile:  no]
+T: 223 > R2(0/4) changed from DELIVERING to RETURNING
+T: 224 > Delivered [Mail Item:: ID:     38 | Arrival:   89 | Destination:  4 | Weight:  203 | Fragile:  no]
+T: 224 > R0(1/4)-> [Mail Item:: ID:    140 | Arrival:  105 | Destination:  4 | Weight:  453 | Fragile:  no]
+T: 225 > Delivered [Mail Item:: ID:    140 | Arrival:  105 | Destination:  4 | Weight:  453 | Fragile:  no]
+T: 225 > R0(0/4)-> [Mail Item:: ID:     66 | Arrival:    8 | Destination:  3 | Weight:  855 | Fragile:  no]
+T: 227 > Delivered [Mail Item:: ID:     66 | Arrival:    8 | Destination:  3 | Weight:  855 | Fragile:  no]
+T: 227 > R0(0/4) changed from DELIVERING to RETURNING
+T: 227 > R1(0/4) changed from RETURNING to WAITING
+T: 227 > R2(0/4) changed from RETURNING to WAITING
+T: 228 > R1(3/4) changed from WAITING to DELIVERING
+T: 228 > R1(3/4)-> [Mail Item:: ID:    106 | Arrival:   12 | Destination:  3 | Weight:  907 | Fragile:  no]
+T: 228 > R2(3/4) changed from WAITING to DELIVERING
+T: 228 > R2(3/4)-> [Mail Item:: ID:    163 | Arrival:   60 | Destination:  3 | Weight:  602 | Fragile:  no]
+T: 230 > R0(0/4) changed from RETURNING to WAITING
+T: 231 > R0(3/4) changed from WAITING to DELIVERING
+T: 231 > R0(3/4)-> [Mail Item:: ID:     25 | Arrival:   87 | Destination:  3 | Weight: 1331 | Fragile:  no]
+T: 231 > Delivered [Mail Item:: ID:    106 | Arrival:   12 | Destination:  3 | Weight:  907 | Fragile:  no]
+T: 231 > R1(2/4)-> [Mail Item:: ID:     34 | Arrival:   20 | Destination:  3 | Weight:  294 | Fragile:  no]
+T: 231 > Delivered [Mail Item:: ID:    163 | Arrival:   60 | Destination:  3 | Weight:  602 | Fragile:  no]
+T: 231 > R2(2/4)-> [Mail Item:: ID:     96 | Arrival:   69 | Destination:  3 | Weight:  323 | Fragile:  no]
+T: 232 > Delivered [Mail Item:: ID:     34 | Arrival:   20 | Destination:  3 | Weight:  294 | Fragile:  no]
+T: 232 > R1(1/4)-> [Mail Item:: ID:     76 | Arrival:   29 | Destination:  3 | Weight: 1485 | Fragile:  no]
+T: 232 > Delivered [Mail Item:: ID:     96 | Arrival:   69 | Destination:  3 | Weight:  323 | Fragile:  no]
+T: 232 > R2(1/4)-> [Mail Item:: ID:     74 | Arrival:   77 | Destination:  3 | Weight:  556 | Fragile:  no]
+T: 233 > Delivered [Mail Item:: ID:     76 | Arrival:   29 | Destination:  3 | Weight: 1485 | Fragile:  no]
+T: 233 > R1(0/4)-> [Mail Item:: ID:    134 | Arrival:   56 | Destination:  3 | Weight:  471 | Fragile:  no]
+T: 233 > Delivered [Mail Item:: ID:     74 | Arrival:   77 | Destination:  3 | Weight:  556 | Fragile:  no]
+T: 233 > R2(0/4)-> [Mail Item:: ID:     77 | Arrival:   77 | Destination:  3 | Weight:  581 | Fragile:  no]
+T: 234 > Delivered [Mail Item:: ID:     25 | Arrival:   87 | Destination:  3 | Weight: 1331 | Fragile:  no]
+T: 234 > R0(2/4)-> [Mail Item:: ID:    166 | Arrival:   87 | Destination:  3 | Weight: 1360 | Fragile:  no]
+T: 234 > Delivered [Mail Item:: ID:    134 | Arrival:   56 | Destination:  3 | Weight:  471 | Fragile:  no]
+T: 234 > R1(0/4) changed from DELIVERING to RETURNING
+T: 234 > Delivered [Mail Item:: ID:     77 | Arrival:   77 | Destination:  3 | Weight:  581 | Fragile:  no]
+T: 234 > R2(0/4) changed from DELIVERING to RETURNING
+T: 235 > Delivered [Mail Item:: ID:    166 | Arrival:   87 | Destination:  3 | Weight: 1360 | Fragile:  no]
+T: 235 > R0(1/4)-> [Mail Item:: ID:     67 | Arrival:   90 | Destination:  3 | Weight:  706 | Fragile:  no]
+T: 236 > Delivered [Mail Item:: ID:     67 | Arrival:   90 | Destination:  3 | Weight:  706 | Fragile:  no]
+T: 236 > R0(0/4)-> [Mail Item:: ID:     75 | Arrival:   90 | Destination:  3 | Weight:  710 | Fragile:  no]
+T: 237 > Delivered [Mail Item:: ID:     75 | Arrival:   90 | Destination:  3 | Weight:  710 | Fragile:  no]
+T: 237 > R0(0/4) changed from DELIVERING to RETURNING
+T: 237 > R1(0/4) changed from RETURNING to WAITING
+T: 237 > R2(0/4) changed from RETURNING to WAITING
+T: 238 > R1(3/4) changed from WAITING to DELIVERING
+T: 238 > R1(3/4)-> [Mail Item:: ID:    144 | Arrival:  108 | Destination:  3 | Weight: 1036 | Fragile:  no]
+T: 238 > R2(3/4) changed from WAITING to DELIVERING
+T: 238 > R2(3/4)-> [Mail Item:: ID:      6 | Arrival:   29 | Destination:  2 | Weight:  735 | Fragile:  no]
+T: 240 > R0(0/4) changed from RETURNING to WAITING
+T: 240 > Delivered [Mail Item:: ID:      6 | Arrival:   29 | Destination:  2 | Weight:  735 | Fragile:  no]
+T: 240 > R2(2/4)-> [Mail Item:: ID:    122 | Arrival:   29 | Destination:  2 | Weight:  265 | Fragile:  no]
+T: 241 > R0(3/4) changed from WAITING to DELIVERING
+T: 241 > R0(3/4)-> [Mail Item:: ID:    149 | Arrival:   45 | Destination:  2 | Weight:  802 | Fragile:  no]
+T: 241 > Delivered [Mail Item:: ID:    144 | Arrival:  108 | Destination:  3 | Weight: 1036 | Fragile:  no]
+T: 241 > R1(2/4)-> [Mail Item:: ID:     12 | Arrival:  116 | Destination:  3 | Weight:  222 | Fragile:  no]
+T: 241 > Delivered [Mail Item:: ID:    122 | Arrival:   29 | Destination:  2 | Weight:  265 | Fragile:  no]
+T: 241 > R2(1/4)-> [Mail Item:: ID:     57 | Arrival:   30 | Destination:  2 | Weight:  531 | Fragile:  no]
+T: 242 > Delivered [Mail Item:: ID:     12 | Arrival:  116 | Destination:  3 | Weight:  222 | Fragile:  no]
+T: 242 > R1(1/4)-> [Mail Item:: ID:      4 | Arrival:   24 | Destination:  2 | Weight:  953 | Fragile:  no]
+T: 242 > Delivered [Mail Item:: ID:     57 | Arrival:   30 | Destination:  2 | Weight:  531 | Fragile:  no]
+T: 242 > R2(0/4)-> [Mail Item:: ID:    120 | Arrival:   36 | Destination:  2 | Weight:  484 | Fragile:  no]
+T: 243 > Delivered [Mail Item:: ID:    149 | Arrival:   45 | Destination:  2 | Weight:  802 | Fragile:  no]
+T: 243 > R0(2/4)-> [Mail Item:: ID:    101 | Arrival:   56 | Destination:  2 | Weight: 1774 | Fragile:  no]
+T: 243 > Delivered [Mail Item:: ID:    120 | Arrival:   36 | Destination:  2 | Weight:  484 | Fragile:  no]
+T: 243 > R2(0/4) changed from DELIVERING to RETURNING
+T: 244 > Delivered [Mail Item:: ID:    101 | Arrival:   56 | Destination:  2 | Weight: 1774 | Fragile:  no]
+T: 244 > R0(1/4)-> [Mail Item:: ID:     90 | Arrival:   60 | Destination:  2 | Weight:  618 | Fragile:  no]
+T: 244 > Delivered [Mail Item:: ID:      4 | Arrival:   24 | Destination:  2 | Weight:  953 | Fragile:  no]
+T: 244 > R1(0/4)-> [Mail Item:: ID:     51 | Arrival:   25 | Destination:  2 | Weight:  476 | Fragile:  no]
+T: 245 > Delivered [Mail Item:: ID:     90 | Arrival:   60 | Destination:  2 | Weight:  618 | Fragile:  no]
+T: 245 > R0(0/4)-> [Mail Item:: ID:     56 | Arrival:   61 | Destination:  2 | Weight:  966 | Fragile:  no]
+T: 245 > Delivered [Mail Item:: ID:     51 | Arrival:   25 | Destination:  2 | Weight:  476 | Fragile:  no]
+T: 245 > R1(0/4) changed from DELIVERING to RETURNING
+T: 245 > R2(0/4) changed from RETURNING to WAITING
+T: 246 > Delivered [Mail Item:: ID:     56 | Arrival:   61 | Destination:  2 | Weight:  966 | Fragile:  no]
+T: 246 > R0(0/4) changed from DELIVERING to RETURNING
+T: 246 > R2(3/4) changed from WAITING to DELIVERING
+T: 246 > R2(3/4)-> [Mail Item:: ID:    153 | Arrival:   62 | Destination:  2 | Weight:  555 | Fragile:  no]
+T: 247 > R1(0/4) changed from RETURNING to WAITING
+T: 248 > R0(0/4) changed from RETURNING to WAITING
+T: 248 > R1(3/4) changed from WAITING to DELIVERING
+T: 248 > R1(3/4)-> [Mail Item:: ID:      3 | Arrival:   77 | Destination:  2 | Weight:  523 | Fragile:  no]
+T: 248 > Delivered [Mail Item:: ID:    153 | Arrival:   62 | Destination:  2 | Weight:  555 | Fragile:  no]
+T: 248 > R2(2/4)-> [Mail Item:: ID:     18 | Arrival:   64 | Destination:  2 | Weight: 1452 | Fragile:  no]
+T: 249 > R0(3/4) changed from WAITING to DELIVERING
+T: 249 > R0(3/4)-> [Mail Item:: ID:     94 | Arrival:  102 | Destination:  2 | Weight:  356 | Fragile:  no]
+T: 249 > Delivered [Mail Item:: ID:     18 | Arrival:   64 | Destination:  2 | Weight: 1452 | Fragile:  no]
+T: 249 > R2(1/4)-> [Mail Item:: ID:     91 | Arrival:   68 | Destination:  2 | Weight:  943 | Fragile:  no]
+T: 250 > Delivered [Mail Item:: ID:      3 | Arrival:   77 | Destination:  2 | Weight:  523 | Fragile:  no]
+T: 250 > R1(2/4)-> [Mail Item:: ID:     88 | Arrival:   79 | Destination:  2 | Weight: 1762 | Fragile:  no]
+T: 250 > Delivered [Mail Item:: ID:     91 | Arrival:   68 | Destination:  2 | Weight:  943 | Fragile:  no]
+T: 250 > R2(0/4)-> [Mail Item:: ID:     44 | Arrival:   73 | Destination:  2 | Weight:  736 | Fragile:  no]
+T: 251 > Delivered [Mail Item:: ID:     94 | Arrival:  102 | Destination:  2 | Weight:  356 | Fragile:  no]
+T: 251 > R0(2/4)-> [Mail Item:: ID:     23 | Arrival:  109 | Destination:  2 | Weight:  885 | Fragile:  no]
+T: 251 > Delivered [Mail Item:: ID:     88 | Arrival:   79 | Destination:  2 | Weight: 1762 | Fragile:  no]
+T: 251 > R1(1/4)-> [Mail Item:: ID:     32 | Arrival:   89 | Destination:  2 | Weight: 1527 | Fragile:  no]
+T: 251 > Delivered [Mail Item:: ID:     44 | Arrival:   73 | Destination:  2 | Weight:  736 | Fragile:  no]
+T: 251 > R2(0/4) changed from DELIVERING to RETURNING
+T: 252 > Delivered [Mail Item:: ID:     23 | Arrival:  109 | Destination:  2 | Weight:  885 | Fragile:  no]
+T: 252 > R0(1/4)-> [Mail Item:: ID:     31 | Arrival:  111 | Destination:  2 | Weight:  354 | Fragile:  no]
+T: 252 > Delivered [Mail Item:: ID:     32 | Arrival:   89 | Destination:  2 | Weight: 1527 | Fragile:  no]
+T: 252 > R1(0/4)-> [Mail Item:: ID:     87 | Arrival:   91 | Destination:  2 | Weight:  703 | Fragile:  no]
+T: 253 > Delivered [Mail Item:: ID:     31 | Arrival:  111 | Destination:  2 | Weight:  354 | Fragile:  no]
+T: 253 > R0(0/4)-> [Mail Item:: ID:    161 | Arrival:   27 | Destination:  1 | Weight:  528 | Fragile:  no]
+T: 253 > Delivered [Mail Item:: ID:     87 | Arrival:   91 | Destination:  2 | Weight:  703 | Fragile:  no]
+T: 253 > R1(0/4) changed from DELIVERING to RETURNING
+T: 253 > R2(0/4) changed from RETURNING to WAITING
+T: 254 > R2(3/4) changed from WAITING to DELIVERING
+T: 254 > R2(3/4)-> [Mail Item:: ID:    128 | Arrival:   33 | Destination:  1 | Weight:  268 | Fragile:  no]
+T: 255 > Delivered [Mail Item:: ID:    161 | Arrival:   27 | Destination:  1 | Weight:  528 | Fragile:  no]
+T: 255 > R0(0/4) changed from DELIVERING to RETURNING
+T: 255 > R1(0/4) changed from RETURNING to WAITING
+T: 255 > Delivered [Mail Item:: ID:    128 | Arrival:   33 | Destination:  1 | Weight:  268 | Fragile:  no]
+T: 255 > R2(2/4)-> [Mail Item:: ID:     29 | Arrival:   43 | Destination:  1 | Weight:  277 | Fragile:  no]
+T: 256 > R0(0/4) changed from RETURNING to WAITING
+T: 256 > R1(3/4) changed from WAITING to DELIVERING
+T: 256 > R1(3/4)-> [Mail Item:: ID:    145 | Arrival:   54 | Destination:  1 | Weight: 1083 | Fragile:  no]
+T: 256 > Delivered [Mail Item:: ID:     29 | Arrival:   43 | Destination:  1 | Weight:  277 | Fragile:  no]
+T: 256 > R2(1/4)-> [Mail Item:: ID:     28 | Arrival:   46 | Destination:  1 | Weight:  886 | Fragile:  no]
+T: 257 > R0(0/4) changed from WAITING to DELIVERING
+T: 257 > R0(0/4)-> [Mail Item:: ID:    156 | Arrival:  112 | Destination:  1 | Weight:  386 | Fragile:  no]
+T: 257 > Delivered [Mail Item:: ID:    145 | Arrival:   54 | Destination:  1 | Weight: 1083 | Fragile:  no]
+T: 257 > R1(2/4)-> [Mail Item:: ID:    158 | Arrival:   89 | Destination:  1 | Weight:  425 | Fragile:  no]
+T: 257 > Delivered [Mail Item:: ID:     28 | Arrival:   46 | Destination:  1 | Weight:  886 | Fragile:  no]
+T: 257 > R2(0/4)-> [Mail Item:: ID:    105 | Arrival:   54 | Destination:  1 | Weight:  339 | Fragile:  no]
+T: 258 > Delivered [Mail Item:: ID:    156 | Arrival:  112 | Destination:  1 | Weight:  386 | Fragile:  no]
+T: 258 > R0(0/4) changed from DELIVERING to RETURNING
+T: 258 > Delivered [Mail Item:: ID:    158 | Arrival:   89 | Destination:  1 | Weight:  425 | Fragile:  no]
+T: 258 > R1(1/4)-> [Mail Item:: ID:     83 | Arrival:   91 | Destination:  1 | Weight: 1138 | Fragile:  no]
+T: 258 > Delivered [Mail Item:: ID:    105 | Arrival:   54 | Destination:  1 | Weight:  339 | Fragile:  no]
+T: 258 > R2(0/4) changed from DELIVERING to RETURNING
+T: 259 > R0(0/4) changed from RETURNING to WAITING
+T: 259 > Delivered [Mail Item:: ID:     83 | Arrival:   91 | Destination:  1 | Weight: 1138 | Fragile:  no]
+T: 259 > R1(0/4)-> [Mail Item:: ID:      0 | Arrival:  109 | Destination:  1 | Weight:  864 | Fragile:  no]
+T: 259 > R2(0/4) changed from RETURNING to WAITING
+T: 260 > Delivered [Mail Item:: ID:      0 | Arrival:  109 | Destination:  1 | Weight:  864 | Fragile:  no]
+T: 260 > R1(0/4) changed from DELIVERING to RETURNING
+T: 261 | Simulation complete!
+Final Delivery time: 261
+Final Score: 52758.09
